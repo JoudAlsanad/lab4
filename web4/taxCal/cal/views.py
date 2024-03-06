@@ -1,10 +1,10 @@
 from django.shortcuts import render
-# Create your views here.
+
 from django.http import HttpResponse
 
 tax_rate = 0.15
 
-def default_view (request) :
+def default(request) :
    return HttpResponse("ch1>This is a site to calculate tax</h1>")
 
 
